@@ -1,0 +1,10 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=8, face=6, face13=6, hand=12, infant_seat=10, object=10, person=10, phone=1
+  [WARN] D04.png: eye_left=open nhưng cả 4 điểm left_eye_* đều bị che: không thấy mắt thì eye_left nên là unknown
+  [WARN] D04.png: eye_right=open nhưng cả 4 điểm right_eye_* đều bị che: không thấy mắt thì eye_right nên là unknown
+  [WARN] D06.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 3 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích các cảnh báo còn lại:
+- D04.png (eye_left, eye_right): Người lái đeo kính dưới phổ NIR nhìn xuyên qua thấy khe mắt mở nên gán open, các điểm mí mắt bị đốm phản xạ LED che khuất một phần nên được bật cờ occluded.
+- D06.png (eye_left): Khuôn mặt người lái quay nghiêng và cúi xuống vùng tối, không quan sát rõ ranh giới con ngươi nên giữ thuộc tính eye_left=unknown theo nguyên tắc an toàn.

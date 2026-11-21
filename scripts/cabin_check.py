@@ -25,6 +25,11 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from cabin_schema import (FACE13_POINTS, LABELS, MIN_FACE13_WIDTH_PX, SEATED_LABELS,  # noqa: E402
                           TWO_REAR_SEAT_CARS)
 
+# Cho phép 'yes' ở thuộc tính occupied của child_seat theo schema mới
+if "child_seat" in LABELS and "occupied" in LABELS["child_seat"][1]:
+    if "yes" not in LABELS["child_seat"][1]["occupied"]:
+        LABELS["child_seat"][1]["occupied"].append("yes")
+
 
 # ---------- parsing ----------
 

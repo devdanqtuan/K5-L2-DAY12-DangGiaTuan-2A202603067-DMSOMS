@@ -1,5 +1,6 @@
 # Ảnh cabin chỉ ở trên máy bạn (RULES §2): không bao giờ commit ảnh hay thư mục Gxx/
 G[0-9][0-9]/
+G[0-9][0-9].zip
 *.png
 *.jpg
 *.jpeg
