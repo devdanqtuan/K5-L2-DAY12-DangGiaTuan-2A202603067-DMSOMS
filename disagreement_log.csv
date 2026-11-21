@@ -1,0 +1,31 @@
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,night,unknown,ambiguous,4.3,thống nhất giữ night do điều kiện cabin xe tối
+D01.png,face,eye_left,khác giá trị (IoU=0.90),unknown,open,mine,4.5,thống nhất giữ unknown do đốm sáng phản xạ LED 940nm che khuất
+D01.png,face,eye_right,khác giá trị (IoU=0.90),unknown,open,mine,4.5,thống nhất giữ unknown do đốm sáng phản xạ LED 940nm che khuất
+D01.png,face,gaze_zone,khác giá trị (IoU=0.90),center,road,mine,4.5,thống nhất giữ center do hướng mắt nhìn bảng điều khiển trung tâm
+D01.png,face13,left_eye_outer.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,left_eye_inner.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,left_eye_upper.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,left_eye_lower.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,right_eye_outer.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,4.6,thống nhất bật outside=1 do mắt bị lóa sáng không xác định được tọa độ
+D01.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,thống nhất bật occluded=1 do khóe miệng bị che một phần
+D02.png,frame_meta,light,khác giá trị,night,unknown,ambiguous,4.3,thống nhất giữ night do ánh sáng yếu trong khoang lái
+D02.png,face13,right_eye_outer.occluded,khác cờ,0,1,both_wrong,4.6,thống nhất điểm mắt nhìn rõ nên giữ cờ occluded=0
+D03.png,frame_meta,light,khác giá trị,night,unknown,ambiguous,4.3,thống nhất giữ night
+D04.png,frame_meta,light,khác giá trị,night,unknown,ambiguous,4.3,thống nhất giữ night
+D04.png,face,eye_left,khác giá trị (IoU=0.59),open,unknown,mine,4.5,thống nhất giữ open do khe mắt vẫn nhìn thấy mở
+D04.png,face,eye_right,khác giá trị (IoU=0.59),open,unknown,mine,4.5,thống nhất giữ open do khe mắt vẫn nhìn thấy mở
+D04.png,person,seatbelt,khác giá trị (IoU=0.90),worn_correct,worn_incorrect,mine,4.7,thống nhất giữ worn_correct do dải chéo vắt qua vai chuẩn
+D04.png,face13,mouth_right.outside,khác cờ,0,1,mine,4.6,thống nhất giữ outside=0 vì khóe miệng vẫn nằm trong khung hình
+D05.png,frame_meta,light,khác giá trị,night,unknown,ambiguous,4.3,thống nhất giữ night
+D06.png,frame_meta,light,khác giá trị,night,unknown,ambiguous,4.3,thống nhất giữ night
+D06.png,face,eye_left,khác giá trị (IoU=0.60),unknown,open,mine,4.5,thống nhất giữ unknown do góc nghiêng tối không thấy rõ mí
+D06.png,face,gaze_zone,khác giá trị (IoU=0.60),other,lap,mine,4.5,thống nhất giữ other vì hướng nhìn cúi không xác định chính xác
+D06.png,face,glasses,khác giá trị (IoU=0.60),unknown,none,mine,4.5,thống nhất giữ unknown do bóng tối che vùng mắt
+D06.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,thống nhất giữ occluded=1 do khóe miệng bị khuất bóng
+D06.png,face13,mouth_right.outside,khác cờ,0,1,mine,4.6,thống nhất giữ outside=0 vì vẫn nằm trong ranh giới mặt
+S01_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,mine,4.8,thống nhất giữ rear do nôi em bé quay về phía sau xe
+S01_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),rear,front,mine,4.8,thống nhất giữ rear do nôi em bé quay về phía sau xe

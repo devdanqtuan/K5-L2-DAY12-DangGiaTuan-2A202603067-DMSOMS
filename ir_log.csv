@@ -1,0 +1,5 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"ảnh IR mô phỏng không tái hiện chói đèn LED, độ tương phản kém ở vùng tối",seatbelt,"giữ unknown vì không thấy rõ dây an toàn"
+S03_ir,IR_sim,"màu sắc vật thể bị biến thành sắc độ xám đỏ mô phỏng",object.type,"phải dựa vào hình dạng hình học thay vì màu sắc để đoán type=bag/box"
+D01,real_IR,"đèn LED 940nm phản xạ mạnh trên tròng kính tạo đốm sáng trắng che khuất con ngươi",eye_left,"ghi eye_left=unknown thay vì đoán open/closed"
+D04,real_IR,"kính râm dưới ánh sáng NIR trở nên gần như trong suốt",glasses,"ghi glasses=sun nếu biết là kính râm hoặc unknown nếu không phân biệt được với clear"
